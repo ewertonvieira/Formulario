@@ -18,7 +18,8 @@ body {
     background-color: #fff;
     padding: 12px;
     width: 500px;
-    height: auto;   
+    height: auto;
+    border-radius: 4px;  
 }
 
 form {
@@ -29,14 +30,14 @@ form {
 input {
     height: 27px;
     text-indent: 6px;
-    border: 1px solid;
+    border: 1px solid transparent;
     border-radius: 10px;
     background-color: #e8e8e8; /* Cinza escuro como exemplo */
     color: #757575;
 }
 
 input:hover {
-    border: 1px dotted salmon;
+    border: 1px solid salmon;
 }
 
 select {
@@ -49,7 +50,7 @@ select {
 }
 
 select:hover {
-    border: 1px dotted salmon;
+    border: 1px solid salmon;
 }
 
 textarea {
@@ -69,8 +70,9 @@ textarea:hover {
 
 button {
     font-size: 16px;
-    height: 36px;
-    width: 200px;
+    margin-top: 10px;
+    height: 35px;
+    width: 160px;
     border: 1px solid transparent;
     border-radius: 10px;
     background-color: #6a11cb;
